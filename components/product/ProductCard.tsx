@@ -32,7 +32,7 @@ export default function ProductCard({ data }: ProductCardProps) {
             <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl hover:border-blue-200 transition-all duration-300 h-full flex flex-col">
 
                 {/* Resim Alanı */}
-                <div className="relative h-64 bg-gray-50 overflow-hidden">
+                <div className="relative h-64 bg-white border-b border-gray-50 overflow-hidden">
                     {finalImageUrl ? (
                         <img
                             src={finalImageUrl}
